@@ -42,6 +42,6 @@ function destructivelyRemoveElementFromEndOfArray(arr){
 }
 
 function removeElementFromEndOfArray(arr){
-  console.console.log(arr.slice(arr.size-1));
+  console.log(arr.slice(arr.size-1));
   return arr.slice(arr.size-1)
 }
