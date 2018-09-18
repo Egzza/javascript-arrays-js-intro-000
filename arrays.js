@@ -22,3 +22,18 @@ function destructivelyAddElementToEndOfArray(arr, data){
   arr.push(data)
   return arr
 }
+
+function accessElementInArray(arr, i){
+  return arr[i]
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  arr.pop()
+  return arr
+}
+
+function removeElementFromBeginningOfArray(arr){
+  var arr2 = arr
+  arr2.pop()
+  return arr2
+}
