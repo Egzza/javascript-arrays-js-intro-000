@@ -28,12 +28,10 @@ function accessElementInArray(arr, i){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(arr){
-  arr.pop()
+  arr.shift()
   return arr
 }
 
 function removeElementFromBeginningOfArray(arr){
-  var arr2 = arr
-  arr2.pop()
-  return arr2
+  return arr.slice(1)
 }
